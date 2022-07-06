@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+a{
+color: black;
+}
+a:visited{
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: lighter;
+}
+a:hover{
+    color: violet;
+}
+a:active{
+    color: red
+}
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    color: aqua;
+}
+a::before{
+    content: '[pedro]';
+    color: aqua;
+}
+    </style>
+</head>
+<body>
+<h1>links</h1>
+<ul>
+    <li> <a href="https://github.com/pedrovtof">github</a></li>
+    <li><a href="https://youtu.be/b_rn7bwD8qQ">youtube</a> </li>
+    <li><a href="https://www.instagram.com/pedrovotf/">instagram</a> </li>
+</ul>
+</body>
+</html>

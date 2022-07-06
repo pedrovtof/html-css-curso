@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*
+em html é id  = em css é #
+em html tudo que é class = em css é .
+*/
+*{
+    text-align: left;
+}
+body{
+    background-image:linear-gradient(to left, #02A676, #008C72, #007369, #005A5B, #003840);
+    font: normal normal 1em 'Times New Roman', Times, serif ;
+}
+main{
+    background-color: #747F7F;
+    margin: auto;
+    height: auto;
+    width: 500px;
+    padding: 20px;
+}
+p{
+    text-indent: 20px;
+    text-align: left;
+}
+#num1{
+    text-align: right;
+}
+#num2{
+    text-align: right;
+}
+/*  pode se colocar mais de uma classe, ex: class='basico avancado' */
+.basico{
+    font-style: italic;
+}
+h1{
+    color: #72F2EB;
+}
+h2{
+    color: #00CCC0;
+}
+h3{
+    color: #FF4858;
+}

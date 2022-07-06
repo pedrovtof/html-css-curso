@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+    text-align:left;
+}
+main{
+background-color: white;
+width: 600px;
+padding: 30px;
+height:auto;
+margin: auto;
+}
+p{
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+}
+body{
+    font-weight: bold;
+    /* existe lighter normal bold bolder */
+    font-style: italic;
+    font-size: 1em;
+    text-decoration: solid;
+
+    /*  shorthand-font
+    style->weight->size->family*/
+background-image: linear-gradient(to right,#024059, #023E73 );
+}
+h1, h2 ,h3 {
+    font: italic normal 3em "arial", san-serif ;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(129, 24, 24, 0.788);
+}
